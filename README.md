@@ -3,7 +3,7 @@ This app was developed for a TopTal Development Practice Challenge : Build a Lan
 
 ### HOW TO USE
 #### On Windows
-- Launch app on Windows (main.exe in the dist folder)
+- Launch app on Windows (Any of the main.exe in the dist folder. Please note that this app requires internet access)
 - A dialog box may appear, ignore it as this is simply for debugging
 - Select the source language
 - Type into the text field what you intend on translating

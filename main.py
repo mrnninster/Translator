@@ -1,6 +1,6 @@
 # Imports
-import PySimpleGUIWeb as sg  # Import PySimpleGUI like this to run as a web app
-# import PySimpleGUI as sg  # Import PySimpleGUI like this to run as a desktop app
+# import PySimpleGUIWeb as sg  # Import PySimpleGUI like this to run as a web app
+import PySimpleGUI as sg  # Import PySimpleGUI like this to run as a desktop app
 import logging
 import requests
 import json
@@ -91,23 +91,30 @@ if __name__ == '__main__':
                 }
 
                 # Obtain Response
-                Response = requests.post(url = URL, data = Data)
-                json_data = json.loads(Response.text)
-
-                Translated_Text = ""
-
-                # Display Response
-                Translation = json_data["sentences"]
-                for i in Translation:
-                    try:
-                        Translated_Text = f'{Translated_Text}{i["trans"]}'
-                    except KeyError:
-                        if (i["src_translit"]):
-                            pass
-                        else:
-                            Translated_Text = f'{Translated_Text}**** TRANSLATION MISSING HERE ****\n'
+                try:
+                    Response = requests.post(url = URL, data = Data)
                 
-                APP_WIN["-Target_Text-"].Update(Translated_Text)
+                except:
+                    sg.popup("Notification","Ensure You Have Internet Access",keep_on_top=True)
+                    Translate = False
+
+                else:
+                    json_data = json.loads(Response.text)
+
+                    Translated_Text = ""
+
+                    # Display Response
+                    Translation = json_data["sentences"]
+                    for i in Translation:
+                        try:
+                            Translated_Text = f'{Translated_Text}{i["trans"]}'
+                        except KeyError:
+                            if (i["src_translit"]):
+                                pass
+                            else:
+                                Translated_Text = f'{Translated_Text}**** TRANSLATION MISSING HERE ****\n'
+                    
+                    APP_WIN["-Target_Text-"].Update(Translated_Text)
                         
 
             # Closing App

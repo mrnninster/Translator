@@ -664,3 +664,66 @@ KeyError: 'trans'
 2021-09-30 03:00:34,868:DEBUG::====================================================================================================
 2021-09-30 03:00:34,868:INFO::Starting App
 2021-09-30 03:01:16,625:DEBUG::Closed App
+2021-09-30 03:32:29,817:DEBUG::
+2021-09-30 03:32:29,818:DEBUG::====================================================================================================
+2021-09-30 03:32:29,818:INFO::Starting App
+2021-09-30 03:33:05,508:ERROR::HTTPSConnectionPool(host='translate.google.com', port=443): Max retries exceeded with url: /translate_a/single?client=at&dt=t&dt=ld&dt=qca&dt=rm&dt=bd&dj=1&hl=en&ie=UTF-8&oe=UTF-8&inputm=2&otf=2&iid=1dd3b944-fa62-4b55-b330-74909a99969e (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020C8CEBB9A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\urllib3\connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000020C8CEBB9A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='translate.google.com', port=443): Max retries exceeded with url: /translate_a/single?client=at&dt=t&dt=ld&dt=qca&dt=rm&dt=bd&dj=1&hl=en&ie=UTF-8&oe=UTF-8&inputm=2&otf=2&iid=1dd3b944-fa62-4b55-b330-74909a99969e (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020C8CEBB9A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\main.py", line 94, in <module>
+    Response = requests.post(url = URL, data = Data)
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='translate.google.com', port=443): Max retries exceeded with url: /translate_a/single?client=at&dt=t&dt=ld&dt=qca&dt=rm&dt=bd&dj=1&hl=en&ie=UTF-8&oe=UTF-8&inputm=2&otf=2&iid=1dd3b944-fa62-4b55-b330-74909a99969e (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020C8CEBB9A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2021-09-30 03:35:36,356:DEBUG::
+2021-09-30 03:35:36,356:DEBUG::====================================================================================================
+2021-09-30 03:35:36,356:INFO::Starting App
+2021-09-30 03:37:18,828:DEBUG::Closed App
+2021-09-30 03:38:47,013:DEBUG::
+2021-09-30 03:38:47,013:DEBUG::====================================================================================================
+2021-09-30 03:38:47,014:INFO::Starting App
+2021-09-30 03:38:50,067:DEBUG::Closed App
