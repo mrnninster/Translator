@@ -26,5 +26,10 @@ feel free to compile an equivalent app for you OS
     - A ṣe ohun elo yii ni lilo Python
     - Gbiyanju ki o ṣe ohun elo onitumọ ti o fẹ
 
+### SAMPLE IMAGE
+- SOURCE LANGUAGE -> Chinese(Simplified)
+- TARGET LANGUAGE -> English
+![Translator Image](https://github.com/mrnninster/Translator/blob/master/Translator.PNG?raw=true)
+
 ### REQUIREMENTS
 View the requirements file to see the requirements
