@@ -94,9 +94,21 @@ if __name__ == '__main__':
                 Response = requests.post(url = URL, data = Data)
                 json_data = json.loads(Response.text)
 
+                Translated_Text = ""
+
                 # Display Response
-                Translation = json_data["sentences"][0]["trans"]
-                APP_WIN["-Target_Text-"].Update(Translation)
+                Translation = json_data["sentences"]
+                for i in Translation:
+                    try:
+                        Translated_Text = f'{Translated_Text}{i["trans"]}'
+                    except KeyError:
+                        if (i["src_translit"]):
+                            pass
+                        else:
+                            Translated_Text = f'{Translated_Text}**** TRANSLATION MISSING HERE ****\n'
+                
+                APP_WIN["-Target_Text-"].Update(Translated_Text)
+                        
 
             # Closing App
             if (app_event == sg.WIN_CLOSED):

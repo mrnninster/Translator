@@ -4,6 +4,7 @@ This app was developed for a TopTal Development Practice Challenge : Build a Lan
 ### HOW TO USE
 #### On Windows
 - Launch app on Windows
+- A dialog box may appear, ignore it as this is simply for debugging
 - Select the source language
 - Type into the text field what you intend on translating
 - Slect your target language
