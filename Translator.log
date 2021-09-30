@@ -1,0 +1,616 @@
+2021-09-29 03:07:53,101:DEBUG::
+2021-09-29 03:07:53,101:DEBUG::====================================================================================================
+2021-09-29 03:07:53,101:INFO::Starting App
+2021-09-29 03:07:53,101:ERROR::name 'sg' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\main.py", line 43, in <module>
+    APP_WIN = App_Win()
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\app_functions.py", line 15, in App_Win
+    From = [sg.Text("From: ", font=("Courier 20", 20))]
+NameError: name 'sg' is not defined
+2021-09-29 03:08:30,607:DEBUG::
+2021-09-29 03:08:30,607:DEBUG::====================================================================================================
+2021-09-29 03:08:30,607:INFO::Starting App
+2021-09-29 03:08:30,607:ERROR::__init__() got an unexpected keyword argument 'keys'
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\main.py", line 43, in <module>
+    APP_WIN = App_Win()
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\app_functions.py", line 22, in App_Win
+    Target_List = [sg.Combo(Language_dict.keys(), keys=("-Target_List-"))]
+TypeError: __init__() got an unexpected keyword argument 'keys'
+2021-09-29 03:12:18,185:DEBUG::
+2021-09-29 03:12:18,185:DEBUG::====================================================================================================
+2021-09-29 03:12:18,185:INFO::Starting App
+2021-09-29 03:12:18,185:ERROR::module 'PySimpleGUI' has no attribute 'Colmn'
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\main.py", line 42, in <module>
+    APP_WIN,App_Width,App_Height = App_Win()
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\app_functions.py", line 30, in App_Win
+    sg.Colmn([From,From_List]),
+AttributeError: module 'PySimpleGUI' has no attribute 'Colmn'
+2021-09-29 03:12:36,421:DEBUG::
+2021-09-29 03:12:36,421:DEBUG::====================================================================================================
+2021-09-29 03:12:36,421:INFO::Starting App
+2021-09-29 03:13:31,970:ERROR::name 'sg' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\main.py", line 49, in <module>
+    if (app_event == sg.WIN_CLOSED):
+NameError: name 'sg' is not defined
+2021-09-29 03:14:10,275:DEBUG::
+2021-09-29 03:14:10,275:DEBUG::====================================================================================================
+2021-09-29 03:14:10,275:INFO::Starting App
+2021-09-29 03:14:23,805:ERROR::name 'sg' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\main.py", line 49, in <module>
+    if (app_event == sg.WIN_CLOSED):
+NameError: name 'sg' is not defined
+2021-09-29 03:15:32,430:DEBUG::
+2021-09-29 03:15:32,430:DEBUG::====================================================================================================
+2021-09-29 03:15:32,430:INFO::Starting App
+2021-09-29 03:15:39,065:DEBUG::Closed App
+2021-09-29 03:15:39,066:DEBUG::Closed App
+2021-09-29 03:15:39,068:DEBUG::Closed App
+2021-09-29 03:15:39,070:DEBUG::Closed App
+2021-09-29 03:15:39,071:DEBUG::Closed App
+2021-09-29 03:15:39,073:DEBUG::Closed App
+2021-09-29 03:15:39,074:DEBUG::Closed App
+2021-09-29 03:15:39,075:DEBUG::Closed App
+2021-09-29 03:15:39,077:DEBUG::Closed App
+2021-09-29 03:15:39,078:DEBUG::Closed App
+2021-09-29 03:15:39,079:DEBUG::Closed App
+2021-09-29 03:15:39,081:DEBUG::Closed App
+2021-09-29 03:15:39,082:DEBUG::Closed App
+2021-09-29 03:15:39,083:DEBUG::Closed App
+2021-09-29 03:15:39,084:DEBUG::Closed App
+2021-09-29 03:15:39,085:DEBUG::Closed App
+2021-09-29 03:15:39,087:DEBUG::Closed App
+2021-09-29 03:15:39,088:DEBUG::Closed App
+2021-09-29 03:15:39,089:DEBUG::Closed App
+2021-09-29 03:15:39,090:DEBUG::Closed App
+2021-09-29 03:15:39,092:DEBUG::Closed App
+2021-09-29 03:15:39,093:DEBUG::Closed App
+2021-09-29 03:15:39,094:DEBUG::Closed App
+2021-09-29 03:15:39,095:DEBUG::Closed App
+2021-09-29 03:15:39,097:DEBUG::Closed App
+2021-09-29 03:15:39,098:DEBUG::Closed App
+2021-09-29 03:15:39,099:DEBUG::Closed App
+2021-09-29 03:15:39,100:DEBUG::Closed App
+2021-09-29 03:15:39,101:DEBUG::Closed App
+2021-09-29 03:15:39,103:DEBUG::Closed App
+2021-09-29 03:15:39,104:DEBUG::Closed App
+2021-09-29 03:15:39,105:DEBUG::Closed App
+2021-09-29 03:15:39,107:DEBUG::Closed App
+2021-09-29 03:15:39,108:DEBUG::Closed App
+2021-09-29 03:15:39,109:DEBUG::Closed App
+2021-09-29 03:15:39,110:DEBUG::Closed App
+2021-09-29 03:15:39,111:DEBUG::Closed App
+2021-09-29 03:15:39,112:DEBUG::Closed App
+2021-09-29 03:15:39,113:DEBUG::Closed App
+2021-09-29 03:15:39,114:DEBUG::Closed App
+2021-09-29 03:15:39,115:DEBUG::Closed App
+2021-09-29 03:15:39,116:DEBUG::Closed App
+2021-09-29 03:15:39,117:DEBUG::Closed App
+2021-09-29 03:15:39,118:DEBUG::Closed App
+2021-09-29 03:15:39,119:DEBUG::Closed App
+2021-09-29 03:15:39,120:DEBUG::Closed App
+2021-09-29 03:15:39,121:DEBUG::Closed App
+2021-09-29 03:15:39,122:DEBUG::Closed App
+2021-09-29 03:15:39,123:DEBUG::Closed App
+2021-09-29 03:15:39,124:DEBUG::Closed App
+2021-09-29 03:15:39,125:DEBUG::Closed App
+2021-09-29 03:15:39,126:DEBUG::Closed App
+2021-09-29 03:15:39,127:DEBUG::Closed App
+2021-09-29 03:15:39,129:DEBUG::Closed App
+2021-09-29 03:15:39,130:DEBUG::Closed App
+2021-09-29 03:15:39,131:DEBUG::Closed App
+2021-09-29 03:15:39,132:DEBUG::Closed App
+2021-09-29 03:15:39,134:DEBUG::Closed App
+2021-09-29 03:15:39,135:DEBUG::Closed App
+2021-09-29 03:15:39,137:DEBUG::Closed App
+2021-09-29 03:15:39,138:DEBUG::Closed App
+2021-09-29 03:15:39,139:DEBUG::Closed App
+2021-09-29 03:15:39,140:DEBUG::Closed App
+2021-09-29 03:15:39,141:DEBUG::Closed App
+2021-09-29 03:15:39,142:DEBUG::Closed App
+2021-09-29 03:15:39,143:DEBUG::Closed App
+2021-09-29 03:15:39,144:DEBUG::Closed App
+2021-09-29 03:15:39,145:DEBUG::Closed App
+2021-09-29 03:15:39,146:DEBUG::Closed App
+2021-09-29 03:15:39,147:DEBUG::Closed App
+2021-09-29 03:15:39,148:DEBUG::Closed App
+2021-09-29 03:15:39,149:DEBUG::Closed App
+2021-09-29 03:15:39,150:DEBUG::Closed App
+2021-09-29 03:15:39,151:DEBUG::Closed App
+2021-09-29 03:15:39,152:DEBUG::Closed App
+2021-09-29 03:15:39,153:DEBUG::Closed App
+2021-09-29 03:15:39,155:DEBUG::Closed App
+2021-09-29 03:15:39,156:DEBUG::Closed App
+2021-09-29 03:15:39,157:DEBUG::Closed App
+2021-09-29 03:15:39,158:DEBUG::Closed App
+2021-09-29 03:15:39,158:DEBUG::Closed App
+2021-09-29 03:15:39,158:DEBUG::Closed App
+2021-09-29 03:15:39,159:DEBUG::Closed App
+2021-09-29 03:15:39,160:DEBUG::Closed App
+2021-09-29 03:15:39,161:DEBUG::Closed App
+2021-09-29 03:15:39,161:DEBUG::Closed App
+2021-09-29 03:15:39,162:DEBUG::Closed App
+2021-09-29 03:15:39,163:DEBUG::Closed App
+2021-09-29 03:15:39,164:DEBUG::Closed App
+2021-09-29 03:15:39,165:DEBUG::Closed App
+2021-09-29 03:15:39,166:DEBUG::Closed App
+2021-09-29 03:15:39,167:DEBUG::Closed App
+2021-09-29 03:15:39,168:DEBUG::Closed App
+2021-09-29 03:15:39,169:DEBUG::Closed App
+2021-09-29 03:15:39,170:DEBUG::Closed App
+2021-09-29 03:15:39,172:DEBUG::Closed App
+2021-09-29 03:15:39,173:DEBUG::Closed App
+2021-09-29 03:15:39,174:DEBUG::Closed App
+2021-09-29 03:15:39,175:DEBUG::Closed App
+2021-09-29 03:15:39,175:DEBUG::Closed App
+2021-09-29 03:15:39,176:DEBUG::Closed App
+2021-09-29 03:15:42,290:DEBUG::Closed App
+2021-09-29 03:17:00,470:DEBUG::
+2021-09-29 03:17:00,470:DEBUG::====================================================================================================
+2021-09-29 03:17:00,470:INFO::Starting App
+2021-09-29 03:17:02,976:DEBUG::Closed App
+2021-09-29 03:17:02,979:DEBUG::Closed App
+2021-09-29 03:17:02,981:DEBUG::Closed App
+2021-09-29 03:17:02,983:DEBUG::Closed App
+2021-09-29 03:17:02,985:DEBUG::Closed App
+2021-09-29 03:17:02,986:DEBUG::Closed App
+2021-09-29 03:17:02,989:DEBUG::Closed App
+2021-09-29 03:17:02,990:DEBUG::Closed App
+2021-09-29 03:17:02,992:DEBUG::Closed App
+2021-09-29 03:17:02,993:DEBUG::Closed App
+2021-09-29 03:17:02,994:DEBUG::Closed App
+2021-09-29 03:17:02,995:DEBUG::Closed App
+2021-09-29 03:17:02,997:DEBUG::Closed App
+2021-09-29 03:17:02,998:DEBUG::Closed App
+2021-09-29 03:17:02,999:DEBUG::Closed App
+2021-09-29 03:17:03,001:DEBUG::Closed App
+2021-09-29 03:17:03,002:DEBUG::Closed App
+2021-09-29 03:17:03,004:DEBUG::Closed App
+2021-09-29 03:17:03,006:DEBUG::Closed App
+2021-09-29 03:17:03,007:DEBUG::Closed App
+2021-09-29 03:17:03,008:DEBUG::Closed App
+2021-09-29 03:17:03,009:DEBUG::Closed App
+2021-09-29 03:17:03,011:DEBUG::Closed App
+2021-09-29 03:17:03,012:DEBUG::Closed App
+2021-09-29 03:17:03,013:DEBUG::Closed App
+2021-09-29 03:17:03,015:DEBUG::Closed App
+2021-09-29 03:17:03,016:DEBUG::Closed App
+2021-09-29 03:17:03,017:DEBUG::Closed App
+2021-09-29 03:17:03,018:DEBUG::Closed App
+2021-09-29 03:17:03,019:DEBUG::Closed App
+2021-09-29 03:17:03,020:DEBUG::Closed App
+2021-09-29 03:17:03,022:DEBUG::Closed App
+2021-09-29 03:17:03,023:DEBUG::Closed App
+2021-09-29 03:17:03,024:DEBUG::Closed App
+2021-09-29 03:17:03,025:DEBUG::Closed App
+2021-09-29 03:17:03,026:DEBUG::Closed App
+2021-09-29 03:17:03,027:DEBUG::Closed App
+2021-09-29 03:17:03,029:DEBUG::Closed App
+2021-09-29 03:17:03,030:DEBUG::Closed App
+2021-09-29 03:17:03,031:DEBUG::Closed App
+2021-09-29 03:17:03,032:DEBUG::Closed App
+2021-09-29 03:17:03,033:DEBUG::Closed App
+2021-09-29 03:17:03,034:DEBUG::Closed App
+2021-09-29 03:17:03,035:DEBUG::Closed App
+2021-09-29 03:17:03,036:DEBUG::Closed App
+2021-09-29 03:17:03,037:DEBUG::Closed App
+2021-09-29 03:17:03,038:DEBUG::Closed App
+2021-09-29 03:17:03,040:DEBUG::Closed App
+2021-09-29 03:17:03,041:DEBUG::Closed App
+2021-09-29 03:17:03,042:DEBUG::Closed App
+2021-09-29 03:17:03,043:DEBUG::Closed App
+2021-09-29 03:17:03,045:DEBUG::Closed App
+2021-09-29 03:17:03,046:DEBUG::Closed App
+2021-09-29 03:17:03,047:DEBUG::Closed App
+2021-09-29 03:17:03,048:DEBUG::Closed App
+2021-09-29 03:17:03,049:DEBUG::Closed App
+2021-09-29 03:17:03,050:DEBUG::Closed App
+2021-09-29 03:17:03,051:DEBUG::Closed App
+2021-09-29 03:17:03,051:DEBUG::Closed App
+2021-09-29 03:17:03,052:DEBUG::Closed App
+2021-09-29 03:17:03,053:DEBUG::Closed App
+2021-09-29 03:17:03,054:DEBUG::Closed App
+2021-09-29 03:17:03,056:DEBUG::Closed App
+2021-09-29 03:17:03,057:DEBUG::Closed App
+2021-09-29 03:17:03,058:DEBUG::Closed App
+2021-09-29 03:17:03,059:DEBUG::Closed App
+2021-09-29 03:17:03,060:DEBUG::Closed App
+2021-09-29 03:17:03,061:DEBUG::Closed App
+2021-09-29 03:17:03,062:DEBUG::Closed App
+2021-09-29 03:17:03,063:DEBUG::Closed App
+2021-09-29 03:17:03,064:DEBUG::Closed App
+2021-09-29 03:17:03,065:DEBUG::Closed App
+2021-09-29 03:17:03,066:DEBUG::Closed App
+2021-09-29 03:17:03,067:DEBUG::Closed App
+2021-09-29 03:17:03,069:DEBUG::Closed App
+2021-09-29 03:17:03,069:DEBUG::Closed App
+2021-09-29 03:17:03,071:DEBUG::Closed App
+2021-09-29 03:17:03,072:DEBUG::Closed App
+2021-09-29 03:17:03,073:DEBUG::Closed App
+2021-09-29 03:17:03,074:DEBUG::Closed App
+2021-09-29 03:17:03,076:DEBUG::Closed App
+2021-09-29 03:17:03,077:DEBUG::Closed App
+2021-09-29 03:17:03,078:DEBUG::Closed App
+2021-09-29 03:17:03,079:DEBUG::Closed App
+2021-09-29 03:17:03,080:DEBUG::Closed App
+2021-09-29 03:17:03,083:DEBUG::Closed App
+2021-09-29 03:17:03,085:DEBUG::Closed App
+2021-09-29 03:17:03,086:DEBUG::Closed App
+2021-09-29 03:17:03,087:DEBUG::Closed App
+2021-09-29 03:17:03,088:DEBUG::Closed App
+2021-09-29 03:17:03,090:DEBUG::Closed App
+2021-09-29 03:17:03,091:DEBUG::Closed App
+2021-09-29 03:17:03,092:DEBUG::Closed App
+2021-09-29 03:17:03,093:DEBUG::Closed App
+2021-09-29 03:17:03,094:DEBUG::Closed App
+2021-09-29 03:17:03,095:DEBUG::Closed App
+2021-09-29 03:17:03,095:DEBUG::Closed App
+2021-09-29 03:17:03,097:DEBUG::Closed App
+2021-09-29 03:17:03,098:DEBUG::Closed App
+2021-09-29 03:17:03,099:DEBUG::Closed App
+2021-09-29 03:17:03,100:DEBUG::Closed App
+2021-09-29 03:17:07,602:DEBUG::Closed App
+2021-09-29 03:18:08,543:DEBUG::
+2021-09-29 03:18:08,543:DEBUG::====================================================================================================
+2021-09-29 03:18:08,543:INFO::Starting App
+2021-09-29 03:18:12,016:DEBUG::Closed App
+2021-09-29 03:18:12,019:DEBUG::Closed App
+2021-09-29 03:18:12,021:DEBUG::Closed App
+2021-09-29 03:18:12,023:DEBUG::Closed App
+2021-09-29 03:18:12,027:DEBUG::Closed App
+2021-09-29 03:18:12,028:DEBUG::Closed App
+2021-09-29 03:18:12,030:DEBUG::Closed App
+2021-09-29 03:18:12,031:DEBUG::Closed App
+2021-09-29 03:18:12,032:DEBUG::Closed App
+2021-09-29 03:18:12,033:DEBUG::Closed App
+2021-09-29 03:18:12,035:DEBUG::Closed App
+2021-09-29 03:18:12,036:DEBUG::Closed App
+2021-09-29 03:18:12,037:DEBUG::Closed App
+2021-09-29 03:18:12,039:DEBUG::Closed App
+2021-09-29 03:18:12,040:DEBUG::Closed App
+2021-09-29 03:18:12,042:DEBUG::Closed App
+2021-09-29 03:18:12,043:DEBUG::Closed App
+2021-09-29 03:18:12,045:DEBUG::Closed App
+2021-09-29 03:18:12,046:DEBUG::Closed App
+2021-09-29 03:18:12,047:DEBUG::Closed App
+2021-09-29 03:18:12,048:DEBUG::Closed App
+2021-09-29 03:18:12,049:DEBUG::Closed App
+2021-09-29 03:18:12,050:DEBUG::Closed App
+2021-09-29 03:18:12,052:DEBUG::Closed App
+2021-09-29 03:18:12,054:DEBUG::Closed App
+2021-09-29 03:18:12,056:DEBUG::Closed App
+2021-09-29 03:18:12,059:DEBUG::Closed App
+2021-09-29 03:18:12,063:DEBUG::Closed App
+2021-09-29 03:18:12,066:DEBUG::Closed App
+2021-09-29 03:18:12,068:DEBUG::Closed App
+2021-09-29 03:18:12,069:DEBUG::Closed App
+2021-09-29 03:18:12,070:DEBUG::Closed App
+2021-09-29 03:18:12,072:DEBUG::Closed App
+2021-09-29 03:18:12,073:DEBUG::Closed App
+2021-09-29 03:18:12,074:DEBUG::Closed App
+2021-09-29 03:18:12,075:DEBUG::Closed App
+2021-09-29 03:18:12,076:DEBUG::Closed App
+2021-09-29 03:18:12,078:DEBUG::Closed App
+2021-09-29 03:18:12,079:DEBUG::Closed App
+2021-09-29 03:18:12,081:DEBUG::Closed App
+2021-09-29 03:18:12,082:DEBUG::Closed App
+2021-09-29 03:18:12,083:DEBUG::Closed App
+2021-09-29 03:18:12,084:DEBUG::Closed App
+2021-09-29 03:18:12,085:DEBUG::Closed App
+2021-09-29 03:18:12,085:DEBUG::Closed App
+2021-09-29 03:18:12,086:DEBUG::Closed App
+2021-09-29 03:18:12,087:DEBUG::Closed App
+2021-09-29 03:18:12,088:DEBUG::Closed App
+2021-09-29 03:18:12,089:DEBUG::Closed App
+2021-09-29 03:18:12,090:DEBUG::Closed App
+2021-09-29 03:18:12,092:DEBUG::Closed App
+2021-09-29 03:18:12,093:DEBUG::Closed App
+2021-09-29 03:18:12,094:DEBUG::Closed App
+2021-09-29 03:18:12,095:DEBUG::Closed App
+2021-09-29 03:18:12,096:DEBUG::Closed App
+2021-09-29 03:18:12,096:DEBUG::Closed App
+2021-09-29 03:18:12,097:DEBUG::Closed App
+2021-09-29 03:18:12,098:DEBUG::Closed App
+2021-09-29 03:18:12,099:DEBUG::Closed App
+2021-09-29 03:18:12,100:DEBUG::Closed App
+2021-09-29 03:18:12,101:DEBUG::Closed App
+2021-09-29 03:18:12,101:DEBUG::Closed App
+2021-09-29 03:18:12,102:DEBUG::Closed App
+2021-09-29 03:18:12,103:DEBUG::Closed App
+2021-09-29 03:18:12,104:DEBUG::Closed App
+2021-09-29 03:18:12,105:DEBUG::Closed App
+2021-09-29 03:18:12,106:DEBUG::Closed App
+2021-09-29 03:18:12,107:DEBUG::Closed App
+2021-09-29 03:18:12,107:DEBUG::Closed App
+2021-09-29 03:18:12,108:DEBUG::Closed App
+2021-09-29 03:18:12,110:DEBUG::Closed App
+2021-09-29 03:18:12,111:DEBUG::Closed App
+2021-09-29 03:18:12,113:DEBUG::Closed App
+2021-09-29 03:18:12,114:DEBUG::Closed App
+2021-09-29 03:18:12,115:DEBUG::Closed App
+2021-09-29 03:18:12,116:DEBUG::Closed App
+2021-09-29 03:18:12,117:DEBUG::Closed App
+2021-09-29 03:18:12,118:DEBUG::Closed App
+2021-09-29 03:18:12,119:DEBUG::Closed App
+2021-09-29 03:18:12,120:DEBUG::Closed App
+2021-09-29 03:18:12,121:DEBUG::Closed App
+2021-09-29 03:18:12,123:DEBUG::Closed App
+2021-09-29 03:18:12,124:DEBUG::Closed App
+2021-09-29 03:18:12,125:DEBUG::Closed App
+2021-09-29 03:18:12,126:DEBUG::Closed App
+2021-09-29 03:18:12,127:DEBUG::Closed App
+2021-09-29 03:18:12,129:DEBUG::Closed App
+2021-09-29 03:18:12,130:DEBUG::Closed App
+2021-09-29 03:18:12,131:DEBUG::Closed App
+2021-09-29 03:18:12,132:DEBUG::Closed App
+2021-09-29 03:18:12,133:DEBUG::Closed App
+2021-09-29 03:18:12,134:DEBUG::Closed App
+2021-09-29 03:18:12,135:DEBUG::Closed App
+2021-09-29 03:18:12,136:DEBUG::Closed App
+2021-09-29 03:18:12,137:DEBUG::Closed App
+2021-09-29 03:18:12,138:DEBUG::Closed App
+2021-09-29 03:18:12,139:DEBUG::Closed App
+2021-09-29 03:18:12,140:DEBUG::Closed App
+2021-09-29 03:18:12,142:DEBUG::Closed App
+2021-09-29 03:18:12,143:DEBUG::Closed App
+2021-09-29 03:18:12,144:DEBUG::Closed App
+2021-09-29 03:18:18,678:DEBUG::Closed App
+2021-09-29 03:18:19,554:DEBUG::Closed App
+2021-09-29 03:18:19,992:DEBUG::Closed App
+2021-09-29 03:18:20,437:DEBUG::Closed App
+2021-09-29 03:18:20,920:DEBUG::Closed App
+2021-09-29 03:18:22,527:DEBUG::Closed App
+2021-09-29 03:21:27,083:DEBUG::
+2021-09-29 03:21:27,084:DEBUG::====================================================================================================
+2021-09-29 03:21:27,084:INFO::Starting App
+2021-09-29 03:21:29,298:DEBUG::Closed App
+2021-09-29 03:21:55,886:DEBUG::
+2021-09-29 03:21:55,886:DEBUG::====================================================================================================
+2021-09-29 03:21:55,886:INFO::Starting App
+2021-09-29 03:21:59,715:DEBUG::Closed App
+2021-09-29 03:22:49,874:DEBUG::
+2021-09-29 03:22:49,874:DEBUG::====================================================================================================
+2021-09-29 03:22:49,874:INFO::Starting App
+2021-09-29 03:22:54,039:DEBUG::Closed App
+2021-09-29 03:23:27,763:DEBUG::
+2021-09-29 03:23:27,763:DEBUG::====================================================================================================
+2021-09-29 03:23:27,764:INFO::Starting App
+2021-09-29 03:23:33,910:DEBUG::Closed App
+2021-09-29 03:23:38,511:DEBUG::
+2021-09-29 03:23:38,511:DEBUG::====================================================================================================
+2021-09-29 03:23:38,511:INFO::Starting App
+2021-09-29 03:23:51,133:DEBUG::Closed App
+2021-09-29 03:24:55,249:DEBUG::
+2021-09-29 03:24:55,249:DEBUG::====================================================================================================
+2021-09-29 03:24:55,249:INFO::Starting App
+2021-09-29 03:25:03,879:DEBUG::Closed App
+2021-09-29 03:27:30,910:DEBUG::
+2021-09-29 03:27:30,911:DEBUG::====================================================================================================
+2021-09-29 03:27:30,911:INFO::Starting App
+2021-09-29 03:27:30,911:ERROR::__init__() got an unexpected keyword argument 'default_text'
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\main.py", line 43, in <module>
+    APP_WIN = App_Win()
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\app_functions.py", line 15, in App_Win
+    From_List = [sg.Combo([x for x in Language_dict.keys()], default_text="Select Source Language", key=("-Source_List-"))]
+TypeError: __init__() got an unexpected keyword argument 'default_text'
+2021-09-29 03:28:16,008:DEBUG::
+2021-09-29 03:28:16,008:DEBUG::====================================================================================================
+2021-09-29 03:28:16,008:INFO::Starting App
+2021-09-29 03:28:21,583:DEBUG::Closed App
+2021-09-29 03:28:26,459:DEBUG::
+2021-09-29 03:28:26,459:DEBUG::====================================================================================================
+2021-09-29 03:28:26,459:INFO::Starting App
+2021-09-29 03:28:29,141:DEBUG::Closed App
+2021-09-29 03:30:19,741:DEBUG::
+2021-09-29 03:30:19,742:DEBUG::====================================================================================================
+2021-09-29 03:30:19,742:INFO::Starting App
+2021-09-29 03:30:24,876:DEBUG::Closed App
+2021-09-29 03:30:46,933:DEBUG::
+2021-09-29 03:30:46,933:DEBUG::====================================================================================================
+2021-09-29 03:30:46,934:INFO::Starting App
+2021-09-29 03:30:53,726:DEBUG::Closed App
+2021-09-29 03:31:25,403:DEBUG::
+2021-09-29 03:31:25,403:DEBUG::====================================================================================================
+2021-09-29 03:31:25,403:INFO::Starting App
+2021-09-29 03:31:29,852:DEBUG::Closed App
+2021-09-29 03:35:38,417:DEBUG::
+2021-09-29 03:35:38,417:DEBUG::====================================================================================================
+2021-09-29 03:35:38,417:INFO::Starting App
+2021-09-29 03:37:01,037:DEBUG::Closed App
+2021-09-29 03:37:37,140:DEBUG::
+2021-09-29 03:37:37,140:DEBUG::====================================================================================================
+2021-09-29 03:37:37,140:INFO::Starting App
+2021-09-29 03:37:47,404:DEBUG::Closed App
+2021-09-29 03:38:03,240:DEBUG::
+2021-09-29 03:38:03,240:DEBUG::====================================================================================================
+2021-09-29 03:38:03,240:INFO::Starting App
+2021-09-29 03:38:15,276:ERROR::max() arg is an empty sequence
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\main.py", line 43, in <module>
+    APP_WIN = App_Win()
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\app_functions.py", line 40, in App_Win
+    TA_Win = sg.Window('Translator App', Window_Layout, location=(Initial_X, Initial_Y), size=(Display_Width,Display_Height), keep_on_top=True, finalize=True)
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\PySimpleGUI\PySimpleGUI.py", line 8468, in __init__
+    self.Finalize()
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\PySimpleGUI\PySimpleGUI.py", line 9142, in finalize
+    self.Read(timeout=1)
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\PySimpleGUI\PySimpleGUI.py", line 8922, in read
+    results = self._read(timeout=timeout, timeout_key=timeout_key)
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\PySimpleGUI\PySimpleGUI.py", line 8988, in _read
+    self._Show()
+  File "C:\Users\Adefolahan\miniconda3\envs\Translator\lib\site-packages\PySimpleGUI\PySimpleGUI.py", line 8713, in _Show
+    self.NumCols = max(len(row) for row in self.Rows)
+ValueError: max() arg is an empty sequence
+2021-09-29 03:38:38,660:DEBUG::
+2021-09-29 03:38:38,660:DEBUG::====================================================================================================
+2021-09-29 03:38:38,660:INFO::Starting App
+2021-09-29 03:39:00,554:DEBUG::Closed App
+2021-09-29 03:39:21,811:DEBUG::
+2021-09-29 03:39:21,811:DEBUG::====================================================================================================
+2021-09-29 03:39:21,812:INFO::Starting App
+2021-09-29 03:39:24,696:DEBUG::Closed App
+2021-09-29 03:39:47,698:DEBUG::
+2021-09-29 03:39:47,698:DEBUG::====================================================================================================
+2021-09-29 03:39:47,698:INFO::Starting App
+2021-09-29 03:39:52,023:DEBUG::Closed App
+2021-09-29 03:40:03,294:DEBUG::
+2021-09-29 03:40:03,294:DEBUG::====================================================================================================
+2021-09-29 03:40:03,295:INFO::Starting App
+2021-09-29 03:40:06,585:DEBUG::Closed App
+2021-09-29 03:41:01,766:DEBUG::
+2021-09-29 03:41:01,766:DEBUG::====================================================================================================
+2021-09-29 03:41:01,766:INFO::Starting App
+2021-09-29 03:41:05,222:DEBUG::Closed App
+2021-09-29 03:41:58,256:DEBUG::
+2021-09-29 03:41:58,256:DEBUG::====================================================================================================
+2021-09-29 03:41:58,256:INFO::Starting App
+2021-09-29 03:42:02,611:DEBUG::Closed App
+2021-09-29 03:45:31,516:DEBUG::
+2021-09-29 03:45:31,516:DEBUG::====================================================================================================
+2021-09-29 03:45:31,516:INFO::Starting App
+2021-09-29 03:45:35,017:DEBUG::Closed App
+2021-09-29 03:45:44,500:DEBUG::
+2021-09-29 03:45:44,500:DEBUG::====================================================================================================
+2021-09-29 03:45:44,500:INFO::Starting App
+2021-09-29 03:45:47,300:DEBUG::Closed App
+2021-09-29 03:45:56,386:DEBUG::
+2021-09-29 03:45:56,386:DEBUG::====================================================================================================
+2021-09-29 03:45:56,386:INFO::Starting App
+2021-09-29 03:46:00,765:DEBUG::Closed App
+2021-09-29 03:46:18,326:DEBUG::
+2021-09-29 03:46:18,326:DEBUG::====================================================================================================
+2021-09-29 03:46:18,327:INFO::Starting App
+2021-09-29 03:46:23,280:DEBUG::Closed App
+2021-09-29 03:46:39,922:DEBUG::
+2021-09-29 03:46:39,922:DEBUG::====================================================================================================
+2021-09-29 03:46:39,922:INFO::Starting App
+2021-09-29 03:46:42,765:DEBUG::Closed App
+2021-09-29 03:47:05,990:DEBUG::
+2021-09-29 03:47:05,990:DEBUG::====================================================================================================
+2021-09-29 03:47:05,990:INFO::Starting App
+2021-09-29 03:47:08,879:DEBUG::Closed App
+2021-09-29 03:47:22,031:DEBUG::
+2021-09-29 03:47:22,031:DEBUG::====================================================================================================
+2021-09-29 03:47:22,031:INFO::Starting App
+2021-09-29 03:47:26,364:DEBUG::Closed App
+2021-09-29 03:47:44,153:DEBUG::
+2021-09-29 03:47:44,153:DEBUG::====================================================================================================
+2021-09-29 03:47:44,154:INFO::Starting App
+2021-09-29 03:47:55,768:DEBUG::Closed App
+2021-09-29 03:48:07,511:DEBUG::
+2021-09-29 03:48:07,511:DEBUG::====================================================================================================
+2021-09-29 03:48:07,511:INFO::Starting App
+2021-09-29 03:48:09,964:DEBUG::Closed App
+2021-09-29 03:48:15,694:DEBUG::
+2021-09-29 03:48:15,694:DEBUG::====================================================================================================
+2021-09-29 03:48:15,694:INFO::Starting App
+2021-09-29 03:48:19,554:DEBUG::Closed App
+2021-09-29 03:48:43,119:DEBUG::
+2021-09-29 03:48:43,120:DEBUG::====================================================================================================
+2021-09-29 03:48:43,120:INFO::Starting App
+2021-09-29 03:48:46,396:DEBUG::Closed App
+2021-09-29 03:49:13,208:DEBUG::
+2021-09-29 03:49:13,208:DEBUG::====================================================================================================
+2021-09-29 03:49:13,208:INFO::Starting App
+2021-09-29 03:49:17,740:DEBUG::Closed App
+2021-09-29 03:49:28,429:DEBUG::
+2021-09-29 03:49:28,429:DEBUG::====================================================================================================
+2021-09-29 03:49:28,429:INFO::Starting App
+2021-09-29 03:49:32,744:DEBUG::Closed App
+2021-09-29 03:49:45,132:DEBUG::
+2021-09-29 03:49:45,132:DEBUG::====================================================================================================
+2021-09-29 03:49:45,132:INFO::Starting App
+2021-09-29 03:49:48,092:DEBUG::Closed App
+2021-09-29 03:50:01,482:DEBUG::
+2021-09-29 03:50:01,482:DEBUG::====================================================================================================
+2021-09-29 03:50:01,482:INFO::Starting App
+2021-09-29 03:50:09,346:DEBUG::Closed App
+2021-09-29 03:50:20,005:DEBUG::
+2021-09-29 03:50:20,005:DEBUG::====================================================================================================
+2021-09-29 03:50:20,006:INFO::Starting App
+2021-09-29 03:50:25,145:DEBUG::Closed App
+2021-09-29 03:50:40,451:DEBUG::
+2021-09-29 03:50:40,451:DEBUG::====================================================================================================
+2021-09-29 03:50:40,451:INFO::Starting App
+2021-09-29 03:50:42,693:DEBUG::Closed App
+2021-09-29 03:50:54,851:DEBUG::
+2021-09-29 03:50:54,851:DEBUG::====================================================================================================
+2021-09-29 03:50:54,851:INFO::Starting App
+2021-09-29 03:50:57,695:DEBUG::Closed App
+2021-09-29 03:56:03,671:DEBUG::
+2021-09-29 03:56:03,671:DEBUG::====================================================================================================
+2021-09-29 03:56:03,671:INFO::Starting App
+2021-09-29 03:56:14,676:DEBUG::Closed App
+2021-09-29 04:13:47,213:DEBUG::
+2021-09-29 04:13:47,213:DEBUG::====================================================================================================
+2021-09-29 04:13:47,213:INFO::Starting App
+2021-09-29 04:14:36,478:DEBUG::Closed App
+2021-09-29 04:14:38,936:DEBUG::
+2021-09-29 04:14:38,936:DEBUG::====================================================================================================
+2021-09-29 04:14:38,936:INFO::Starting App
+2021-09-29 04:15:02,393:DEBUG::Closed App
+2021-09-29 04:16:17,122:DEBUG::
+2021-09-29 04:16:17,122:DEBUG::====================================================================================================
+2021-09-29 04:16:17,122:INFO::Starting App
+2021-09-29 04:16:47,336:DEBUG::Closed App
+2021-09-29 04:31:58,705:DEBUG::
+2021-09-29 04:31:58,705:DEBUG::====================================================================================================
+2021-09-29 04:31:58,705:INFO::Starting App
+2021-09-29 04:32:17,389:DEBUG::Closed App
+2021-09-29 04:36:47,495:DEBUG::
+2021-09-29 04:36:47,495:DEBUG::====================================================================================================
+2021-09-29 04:36:47,495:INFO::Starting App
+2021-09-29 04:38:34,813:DEBUG::Closed App
+2021-09-29 04:38:39,046:DEBUG::
+2021-09-29 04:38:39,046:DEBUG::====================================================================================================
+2021-09-29 04:38:39,046:INFO::Starting App
+2021-09-29 04:39:03,281:ERROR::'Response' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\main.py", line 97, in <module>
+    print(Response[0]["trans"].text)
+TypeError: 'Response' object is not subscriptable
+2021-09-29 04:39:51,116:DEBUG::
+2021-09-29 04:39:51,132:DEBUG::====================================================================================================
+2021-09-29 04:39:51,132:INFO::Starting App
+2021-09-29 04:40:10,942:ERROR::'Response' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\main.py", line 97, in <module>
+    print(Response["sentences"][0]["trans"].text)
+TypeError: 'Response' object is not subscriptable
+2021-09-29 04:40:58,359:DEBUG::
+2021-09-29 04:40:58,359:DEBUG::====================================================================================================
+2021-09-29 04:40:58,359:INFO::Starting App
+2021-09-29 04:41:25,587:ERROR::dictionary update sequence element #0 has length 128; 2 is required
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\main.py", line 94, in <module>
+    Response = dict(requests.post(url = URL, data = Data))
+ValueError: dictionary update sequence element #0 has length 128; 2 is required
+2021-09-29 04:46:17,525:DEBUG::
+2021-09-29 04:46:17,525:DEBUG::====================================================================================================
+2021-09-29 04:46:17,525:INFO::Starting App
+2021-09-29 04:46:48,604:DEBUG::Closed App
+2021-09-29 04:48:17,493:DEBUG::
+2021-09-29 04:48:17,493:DEBUG::====================================================================================================
+2021-09-29 04:48:17,493:INFO::Starting App
+2021-09-29 04:48:41,531:ERROR::'function' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Adefolahan\DESKTOP_APPS\Translator\main.py", line 100, in <module>
+    App_Win["-Target_Text-"].Update(Translation)
+TypeError: 'function' object is not subscriptable
+2021-09-29 04:49:09,503:DEBUG::
+2021-09-29 04:49:09,503:DEBUG::====================================================================================================
+2021-09-29 04:49:09,503:INFO::Starting App
+2021-09-29 04:50:02,340:DEBUG::Closed App
+2021-09-29 13:52:48,446:DEBUG::
+2021-09-29 13:52:48,446:DEBUG::====================================================================================================
+2021-09-29 13:52:48,447:INFO::Starting App
+2021-09-29 13:53:00,887:DEBUG::Closed App
+2021-09-29 13:54:38,518:DEBUG::
+2021-09-29 13:54:38,518:DEBUG::====================================================================================================
+2021-09-29 13:54:38,519:INFO::Starting App
+2021-09-29 13:54:50,232:DEBUG::Closed App
